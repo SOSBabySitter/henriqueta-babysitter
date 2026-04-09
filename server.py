@@ -21,7 +21,7 @@ BABYSITTER_NAME  = "Henriqueta Machava"
 BABYSITTER_BIO   = ("Olá! Sou a Henriqueta, tenho 14 anos e adoro cuidar de crianças. "
                     "Tenho experiência com bebês e crianças até 10 anos, curso de "
                     "culinária e muita paciência e carinho. 💛")
-BABYSITTER_PHOTO = "C:\Users\Glei\Downloads\SOSBabySitter-1775747078618\SOSBabySitter-horizontal.png "               # URL de uma foto (deixe vazio para usar emoji)
+BABYSITTER_PHOTO = ""               # URL de uma foto (deixe vazio para usar emoji)
 WHATSAPP_NUMBER  = "351965813670"   # DDI+número, só dígitos
 HOURLY_RATE      = "10€/hora"
 LOCATION         = "Lisboa, Portugal"
@@ -267,7 +267,7 @@ def page_home(msg="", msg_type="ok"):
         <div class="service-card">
           <div class="icon">🍼</div>
           <h3>Bebés</h3>
-          <p>Cuidados especiais para bebés de 0–2 anos</p>
+          <p>Cuidados especiais para bebés de 0–10 anos</p>
         </div>
         <div class="service-card">
           <div class="icon">🎨</div>
