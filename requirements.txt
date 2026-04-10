@@ -1,1 +1,1 @@
-# Sem dependências externas — apenas bibliotecas padrão do Python
+# Sem dependências externas — apenas bibliotecas padrão do Python 3
