@@ -47,7 +47,7 @@ GOOGLE_CLIENT_SECRET = os.environ.get("GOOGLE_CLIENT_SECRET", "")
 GOOGLE_REDIRECT_URI  = os.environ.get("GOOGLE_REDIRECT_URI", "http://localhost:8080/auth/google/callback")
 
 # Anthropic API para chatbot
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "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")
 
 # Servidor
 DB_PATH = os.environ.get("DB_PATH", "babysitter.db")
