@@ -1252,7 +1252,10 @@ def page_admin(section="dashboard", msg="", msg_type="ok"):
                   <input type="hidden" name="id" value="{e["id"]}">
                   <select name="staff_id" style="padding:.3rem;font-size:.8rem">
                     <option value="">— Ninguém —</option>
-                    {"".join(f\'<option value="{s["id"]}" {"selected" if e.get("assigned_to")==s["id"] else ""}>{s["name"]}</option>\' for s in staff_list)}
+                    {"".join(
+    f'<option value="{s["id"]}" {"selected" if e.get("assigned_to") == s["id"] else ""}>{s["name"]}</option>'
+    for s in staff_list
+)}
                   </select>
                   <button class="btn btn-sm btn-outline" type="submit">OK</button>
                 </form>
