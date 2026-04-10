@@ -1219,7 +1219,11 @@ def page_admin(section="dashboard", msg="", msg_type="ok"):
               <td>{r["comment"][:60]}{"…" if len(r["comment"])>60 else ""}</td>
               <td>{"✅ Aprovado" if r["approved"] else "⏳ Pendente"}</td>
               <td style="display:flex;gap:.4rem">
-                {f\'<form method="POST" action="{ADMIN_SECRET_PATH}/review-action" style="display:inline"><input type="hidden" name="id" value="{r["id"]}"><input type="hidden" name="action" value="approve"><button class="btn btn-sm btn-success">Aprovar</button></form>\' if not r["approved"] else ""}
+                f'<form method="POST" action="{ADMIN_SECRET_PATH}/review-action" style="display:inline">
+<input type="hidden" name="id" value="{r["id"]}">
+<input type="hidden" name="action" value="approve">
+<button class="btn btn-sm btn-success">Aprovar</button>
+</form>' if not r["approved"] else ""
                 <form method="POST" action="{ADMIN_SECRET_PATH}/review-action" style="display:inline">
                   <input type="hidden" name="id" value="{r["id"]}">
                   <input type="hidden" name="action" value="delete">
