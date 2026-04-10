@@ -42,7 +42,7 @@ ADMIN_SECRET_PATH = "/admin-page-secret"
 ADMIN_PASSWORD    = "Henriqueta2011"
 
 # Google OAuth (preenche após criar no Google Cloud Console)
-GOOGLE_CLIENT_ID=800232139173-076nfuifbqopdpnl975s9qaiavdunrde.apps.googleusercontent.com
+GOOGLE_CLIENT_ID = "800232139173-076nfuifbqopdpnl975s9qaiavdunrde.apps.googleusercontent.com"
 GOOGLE_CLIENT_SECRET=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
 GOOGLE_REDIRECT_URI=https://sosbabysitter.up.railway.app/auth/google/callback
 
