@@ -42,9 +42,9 @@ ADMIN_SECRET_PATH = "/gestao-hm-2024"
 ADMIN_PASSWORD    = "Henriqueta2011"
 
 # Google OAuth (preenche após criar no Google Cloud Console)
-GOOGLE_CLIENT_ID     = os.environ.get("GOOGLE_CLIENT_ID", "")
-GOOGLE_CLIENT_SECRET = os.environ.get("GOOGLE_CLIENT_SECRET", "")
-GOOGLE_REDIRECT_URI  = os.environ.get("GOOGLE_REDIRECT_URI", "http://localhost:8080/auth/google/callback")
+GOOGLE_CLIENT_ID=800232139173-076nfuifbqopdpnl975s9qaiavdunrde.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=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
+GOOGLE_REDIRECT_URI=https://sosbabysitter.up.railway.app/auth/google/callback
 
 # Anthropic API para chatbot
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "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")
