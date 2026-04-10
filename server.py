@@ -38,7 +38,7 @@ HOURLY_RATE      = "10€/hora"
 LOCATION         = "Lisboa, Portugal"
 
 # Admin — URL secreta (muda para algo que só tu sabes)
-ADMIN_SECRET_PATH = "/gestao-hm-2024"
+ADMIN_SECRET_PATH = "/admin-page-secret"
 ADMIN_PASSWORD    = "Henriqueta2011"
 
 # Google OAuth (preenche após criar no Google Cloud Console)
